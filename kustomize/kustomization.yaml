@@ -17,6 +17,7 @@ helmCharts:
           key: cloudflare-api-token-secret
     extraArgs:
     - --zone-id-filter=3b3010f2e7d9a53b4bc7b698d28e9076
+    policy: sync
     provider:
       name: cloudflare
     txtOwnerId: "rpi-external-dns"
