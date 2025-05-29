@@ -17,7 +17,6 @@ helmCharts:
           key: cloudflare-api-token-secret
     extraArgs:
     - --zone-id-filter=3b3010f2e7d9a53b4bc7b698d28e9076
-    - --cloudflare-record-comment="provisioned by rpi cluster external-dns"
     policy: sync
     provider:
       name: cloudflare
